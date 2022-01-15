@@ -75,8 +75,9 @@ icon1.addEventListener("click",(e)=>{
 })
 icon2.addEventListener("click",(e)=>{
     const li = e.target.parentNode.parentNode;
-    li.classList.add('done')
-    console.log(li)
+    const ul = e.target.parentNode.parentNode.parentNode;
+    ul.removeChild(li)
+    console.log("del")
 
 })
 
@@ -87,6 +88,7 @@ span.appendChild(icon2)
     return span;
   
 }
+
 
 
 

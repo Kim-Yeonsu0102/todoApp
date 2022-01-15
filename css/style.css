@@ -83,7 +83,9 @@ input::placeholder {
     color:salmon
 }
 
-
+.hidden{
+    visibility: hidden;
+}
 
 
 
