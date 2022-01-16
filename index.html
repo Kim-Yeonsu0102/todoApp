@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,31 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="wrapper">
-    <header class="header">
-        <h1>Todo</h1>
-        <div class="input-box">
-            <label for="todo-input">Todo : </label>
-            <input type="text " id="todo-input" placeholder="할 일을 써주세요" >
-        </div>
-    </header>
-    <section class="section">
-        <ul class="todo-list">
-           
+    <div class="wrapper">
+        <header class="header">
+            <div class="headerArea">
+                <h1>Todo</h1>
+                <div class="input-box">
+                    <label for="todo-input">Todo : </label>
+                    <input type="text " id="todo-input" placeholder="할 일을 써주세요">
+                </div>
+                <button id="write"><i class="material-icons">beenhere</i></button>
+            </div>
+        </header>
+        <section class="section">
+            <ul class="todo-list">
+                <li style="display: none;"></li>
 
-        </ul>
+            </ul>
 
-    </section>
+        </section>
 
-</div>
-<script src="js/todo.js"></script>
-    
+    </div>
+    <script src="js/todo.js"></script>
+
 </body>
-</html> 
+
+</html>
