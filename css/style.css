@@ -91,6 +91,10 @@
             flex: 1;
         }
         
+        .material-icons {
+            cursor: pointer;
+        }
+        
         .todo-item {
             flex: 8;
         }
